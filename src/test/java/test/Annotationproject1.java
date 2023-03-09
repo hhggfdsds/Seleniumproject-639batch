@@ -22,7 +22,7 @@ public class Annotationproject1 {
   }
   @BeforeClass
   public void beforeClass() {
-	  WebDriver driver;
+	//  WebDriver driver;
 	  WebDriverManager.chromedriver().setup();
 		driver= new ChromeDriver();
 		driver.manage().window().maximize();
